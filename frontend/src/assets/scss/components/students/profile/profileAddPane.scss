@@ -1,0 +1,6 @@
+@import "src/assets/scss/base/styling";
+.pap{
+  &-submit-button{
+    @include button(20rem,2.5rem,#2766cc,#fff,1.3rem);
+  }
+}

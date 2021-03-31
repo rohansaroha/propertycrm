@@ -1,0 +1,17 @@
+@import "src/assets/scss/base/styling";
+
+.addPane-form{
+  label{
+    color: #2766cc !important;
+  }
+}
+.acap{
+  &-submit-button{
+    @include button(15rem,2.4rem,#2766cc,#ffff,1.3rem);
+  }
+  &-content{
+    &-header{
+      @include header(2rem,$heading-color,$heading-shadow-color);
+    }
+  }
+}

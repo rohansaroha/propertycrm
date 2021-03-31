@@ -2,23 +2,28 @@
   "data": [
     {
       "id": 1,
-      "link": "/announcement",
-      "text": "Announcement",
+      "link": "/masters",
+      "text": "Masters",
       "icon": "announcement",
       "tabs": [
-        {"tabId":"1","text": "Circular", "link": "/announcements/circular"},
-        {"tabId":"2","text": "Study Materials", "link": "/announcements/studyMaterial"},
-        {"tabId":"3","text": "Home Work", "link": "/announcements/homeWork"},
-        {"tabId":"4","text": "Messages", "link": "/announcements/messages"},
-        {"tabId":"5","text": "Live Class", "link": "/announcements/liveClass"},
-        {"tabId":"6","text": "Events", "link": "/announcements/events"}
+        {"tabId":"1","text": "Site/Projects", "link": "/masters/sites"},
+        {"tabId":"2","text": "Sector Master", "link": "/masters/sector_master"},
+        {"tabId":"3","text": "Block Master", "link": "/masters/block_master"},
+        {"tabId":"4","text": "Plot Size Master", "link": "/masters/plot_size_master"},
+        {"tabId":"5","text": "Plot Master", "link": "/masters/plot_master"},
+        {"tabId":"6","text": "Rank Master", "link": "/masters/rank_master"}
       ]
     },
     {
       "id": 2,
-      "link": "/students",
+      "link": "/registration",
       "text": "Students",
-      "icon": "student"
+      "icon": "student",
+      "tabs": [
+        {"tabId":"7","text": "Customer", "link": "/reg/customer"},
+        {"tabId":"8","text": "Kisan", "link": "/reg/kisan"},
+        {"tabId":"9","text": "Associate", "link": "/reg/associate"}
+      ]
     },
     {
       "id": 3,

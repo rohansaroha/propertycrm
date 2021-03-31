@@ -1,0 +1,44 @@
+@import "src/assets/scss/base/styling";
+
+.hc{
+  &-main-container{
+    width: 70%;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    padding: 2rem;
+    border-bottom: solid 3px $main-text-color;
+  }
+  &-filter{
+    &-branch{
+      &-dropdown{
+        height: 1.5rem;
+        margin: 1.5rem 0 3rem 0;
+        div{
+          width: 100% !important;
+          @include fontStyle(1.3rem,500,$main-text-color)
+        }
+      }
+    }
+    &-date{
+      display: flex;
+      justify-content: space-around;
+      margin: 4.5rem 0 3rem;
+      &-start,&-end{
+        div{
+          background-color: $main-text-color !important;
+          @include fontStyle(1.3rem,500,#fff);
+          color: #fff !important;
+        }
+        input{
+          color: $main-text-color;
+        }
+      }
+    }
+  }
+  &-search-button{
+    @include button(20rem,3rem,#2766cc,#fff,1.5rem)
+  }
+
+}

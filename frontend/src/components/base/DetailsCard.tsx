@@ -9,12 +9,12 @@ interface IDetailsCard  {
 
 const DetailsCard = (props:IDetailsCard)=>{
     return (
-        <div className='detailsCard-container' style={{ backgroundColor: props.color }}>
+        <div className='detailsCard-container'>
             <div>
-                <div className='detailsCard-text'>
+                <div className='detailsCard-text' style={{ color: props.color }}>
                     <span>{props.text}</span>
                 </div>
-                <div className="detailsCard-header">
+                <div className="detailsCard-header" style={{ color: props.color }}>
                     <span>{props.header.toUpperCase()}</span>
                 </div>
             </div>

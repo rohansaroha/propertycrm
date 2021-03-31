@@ -1,0 +1,35 @@
+@import "src/assets/scss/base/styling";
+
+.paprd{
+  &-main-container{
+  }
+  &-profile{
+    &-pm{
+      &-container{
+        display: flex;
+      }
+      &-image{
+        &-container{
+          text-align: center;
+          flex: 1;
+        }
+        margin-top: 1rem ;
+        width: 15rem;
+        height: 15rem;
+        &-button{
+          @include button(10rem,2.5rem,#05a25a,#fff,1rem);
+        }
+      }
+      &-details{
+        &-container{
+          flex: 3;
+        }
+      }
+    }
+    &-sc{
+      &-container{
+        margin: 1rem 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@import "src/assets/scss/base/styling";
+
+.paped{
+  &-header{
+    @include header(2rem,$heading-color,#d8d8d8);
+  }
+}

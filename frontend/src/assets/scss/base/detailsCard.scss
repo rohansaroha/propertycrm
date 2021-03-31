@@ -2,7 +2,7 @@
 
 .detailsCard{
   &-container{
-    width: 14rem;
+    width: 30rem;
     height: 13rem;
     display: flex;
     justify-content: center;
@@ -10,12 +10,13 @@
     border-radius: 4px;
     box-shadow: 2px 2px #c3c0c0;
     margin: 1rem;
+    background-color: #ffffff;
   }
   &-text{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.8rem;
     @include fontStyle(1.8rem,500,$card-text-color);
     text-shadow: 1px 1px #d8d8d8;
     letter-spacing: 0.3px;

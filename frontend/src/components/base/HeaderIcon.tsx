@@ -1,5 +1,5 @@
-import React from "react";
-import { Button, Icon } from "semantic-ui-react";
+import React from 'react';
+import {Button, Icon} from "semantic-ui-react";
 import "../../assets/scss/base/headerIcon.scss";
 import FilterBox from "./FilterBox";
 
@@ -12,9 +12,9 @@ const HeaderIcon = (props:ITableViewProps)=>{
     return(
         <div className = 'hi-main-container'>
             <div className='hi-filter-container'>
-                {props.filter ? (
+                {props.filter?(
                     <FilterBox/>
-                ) : null}
+                ):null}
             </div>
             <div className='hi-content-container'>
                 <div className='hi-header'>
@@ -28,6 +28,6 @@ const HeaderIcon = (props:ITableViewProps)=>{
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 export default HeaderIcon;

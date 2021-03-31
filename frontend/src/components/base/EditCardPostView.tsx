@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 import "../../assets/scss/base/editCard.scss";
-import { Icon } from "semantic-ui-react";
+import {Icon} from "semantic-ui-react";
 
 interface IEditCard{
     primaryHeader:string,
@@ -33,6 +33,6 @@ const EditCardPostView = (props:IEditCard)=>{
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 export default EditCardPostView;
